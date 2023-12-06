@@ -19,7 +19,7 @@ The existing QuizApp has been transformed into a microservice architecture, with
 
 Inter-Service Communication
 
-For interaction between these two services, an Eureka server is used:
+For interaction between these two services, Eureka server is used:
 
 - All microservices are registered with the Eureka server.
 - Microservices can search for one another from the Eureka server using the Eureka client.
